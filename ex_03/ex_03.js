@@ -1,6 +1,6 @@
 var fs = require('fs');
-var arg1 = (process.argv[2]); // Take first argument
-var arg2 = process.argv[3]; // take second argument
+var arg1 = (process.argv[2]); // Take first argument, that would be the first file
+var arg2 = process.argv[3]; // take second argument, that would be the second file
 
 // Check if file exists : 
 fs.stat('./'+arg1+'.txt', function(err){
